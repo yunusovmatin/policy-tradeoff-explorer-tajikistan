@@ -6,7 +6,7 @@ This project is not affiliated with, commissioned by, used by, or endorsed by UN
 
 Repository: [yunusovmatin/policy-tradeoff-explorer-tajikistan](https://github.com/yunusovmatin/policy-tradeoff-explorer-tajikistan).
 
-Live demonstration: no public deployment has yet been verified. See [deployment instructions](DEPLOYMENT.md) before publishing or sharing a live link.
+Live demonstration: **[Open the public Policy Trade-off Explorer](https://policy-tradeoff-explorer-tajikistan.vercel.app/)** (Vercel production deployment from GitHub `main`).
 
 ## Purpose and features
 
