@@ -1,0 +1,134 @@
+# Dependencies
+**/node_modules
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+*.dist
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+
+# Gatsby files
+.cache/
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+.project-config.json
+
+# Private handoff and review artifacts (retained locally, never published)
+.project-config.json
+*.url
+*.zip
+CODEX_HANDOFF.md
+CODEX_PROMPT.txt
+ORIGINAL_REQUIREMENTS.txt
+CHATGPT*.md
+FINAL_CORRECTIONS*.md
+UNDP_HQ_REVIEW.md
+REVIEW_REQUEST.txt
+review-*
+ELITE_IMPLEMENTATION_GUIDE.md
+IMPLEMENTATION_GUIDE.md
+DECISION_BRIEF_TEMPLATE.md
+POLICY_NOTE_TEMPLATE.md
+SAMPLE_DECISION_BRIEF.md
+SAMPLE_POLICY_NOTES.md
+.playwright-mcp/
+.vercel/
+.netlify/
+.env.*
+*.pem
+*.key
+client/public/__manus__/
+.gitkeep

@@ -1,0 +1,12 @@
+[build]
+  command = "pnpm run check && pnpm exec vitest run && pnpm run build && node scripts/prepare-release.mjs"
+  publish = "dist/public"
+
+[build.environment]
+  NODE_VERSION = "24.14.0"
+  PNPM_FLAGS = "--frozen-lockfile"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
